@@ -9,9 +9,7 @@ A beginner-friendly **shoe store website** built using **HTML, CSS, and JavaScri
 * 🎨 Custom UI with banner and product layout
 * 📱 Simple responsive design
 
-## 🚀 Demo
-
-(You can add your GitHub Pages link here later)
+## [🚀 Demo](https://gauraangcodes.github.io/shoes-website-practice/)
 
 
 
