@@ -1,0 +1,119 @@
+<style>
+.addtocart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+     background-color: rgb(255, 216, 20);
+     color: #111;
+    border:none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.purchase{
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: chartreuse;
+    color: #111;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+.airf{
+    width: 220px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+
+}
+
+.nikegoat{
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 55px;
+}
+
+
+.parent-div{
+    display: flex;
+    gap: 40px;
+}
+
+.addtocart:hover{
+    background-color: rgb(245, 205, 10);
+    box-shadow: 5px 5px 30px #111;
+}
+
+.purchase:hover{
+    background-color: forestgreen;
+    box-shadow: 2px 2px 50px;
+}
+
+.banner{
+   background:linear-gradient(#6495ed,#dc143c);
+    color:#111;
+    border-bottom: red;
+    border-top: red;
+    text-align: center;
+    padding: 10px;
+
+
+}
+</style>  
+
+<div class="banner">
+<h1>raang shoes zone🔥👟</h1>
+</div>
+<div class="parent-div">
+
+<div class="container">
+<img class="airf" src= 
+"https://images.pexels.com/photos/10726876/pexels-photo-10726876.jpeg">
+
+<p>air force 1 -29$</p>
+
+<button class="addtocart" onclick="addToCart(this)">
+  Add to cart
+</button>
+
+<button class="purchase " onclick="purchsed()">
+    purchase
+</button>
+</div>
+
+<div class="ngoat">
+
+    <img class="nikegoat" src=
+"https://th.bing.com/th/id/OIP.DcUeIKRMOTJt-FNqPmaRiAHaDX?w=336&h=158&c=7&r=0&o=7&pid=1.7&rm=3">
+<p>nike goat(red)-39$</p>
+<button class="addtocart" onclick="addToCart(this)">
+  Add to cart
+</button>
+
+<button class="purchase " onclick="purchsed()">
+    purchase
+</button>
+</div>
+
+</div>
+
+<h1>stock sold out more shoes coming soon!</h1>
+
+<script>
+function addToCart(btn) {
+  btn.innerText = "Added to cart ✅";
+}
+</script>
+
+<script>
+    function purchsed(){
+        window.location.href="thankyouforpurchase.html"
+    }
+</script>
+
+
