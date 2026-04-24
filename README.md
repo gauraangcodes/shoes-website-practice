@@ -23,7 +23,7 @@ A beginner-friendly **shoe store website** built using **HTML, CSS, and JavaScri
 
 * `index.html` → main product page
 * `thankyouforpurchase.html` → confirmation page
-* `style` → styling inside HTML (or CSS file if you separate later)
+* `style` → styling inside HTML
 
 ## 🎯 What I Learned
 
